@@ -1,0 +1,270 @@
+*{
+	padding: 0;
+	margin:0;
+}
+
+*:focus{
+	outline: 0;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html, 
+body { 
+	height: 100%;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    overflow-x: hidden;
+    font-family: 'Myriad Pro', 'Helvetica';
+    border-top : 3px solid red;
+	width : 100%;
+}
+
+a,
+a:visited,
+a:hover {
+    color: #a3a3a3;
+	text-decoration : none;
+}
+
+img{ 
+	max-width : 100%;
+	vertical-align: middle; 
+}
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+input[disabled]{
+	background : #ffffff;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.ignik-wrapper{
+	position: relative;
+	width: 100%;
+}
+
+nav{
+	position: relative;
+	width: 100%;
+	border-bottom : 1px solid #dddddd;
+}
+
+nav .nav-logo{
+	position : relative;
+	width: 100%;
+}
+
+nav .nav-btn{
+	position: absolute;
+}
+
+nav #nav-home{
+	left: 6.835938%;
+}
+
+nav #nav-portfolio{
+	left: 26.757816%;
+}
+
+nav #nav-about{
+	right: 30.566405%;
+}
+
+nav #nav-contact{
+	right: 6.835938%;
+}
+
+/* General Android Smartphone - Portrait */
+@media only screen and (max-width: 480px){
+	nav{
+		padding-bottom: 1.504em !important;
+	}
+	
+	nav .nav-btn{
+		font-size: 0.879em !important;
+	}
+	
+	nav #nav-portfolio{
+		left: 25.048832%;
+	}
+	
+	nav #nav-about{
+		right: 28.857421%;
+	}
+}
+
+/* General Android Smartphone - Landscape */
+@media only screen and (min-width: 481px) and (max-width: 800px){
+	nav{
+		padding-bottom: 2.089em !important;
+	}
+		
+	nav .nav-btn{
+		font-size: 1.464em !important;
+	}
+	
+	nav #nav-portfolio{
+		left: 25.048832%;
+	}
+	
+	nav #nav-about{
+		right: 28.857421%;
+	}
+}
+
+/* iPhone 5, 4 - Portrait */
+@media 
+only screen and (device-aspect-ratio: 40/71) and (orientation: portrait),
+only screen and (device-aspect-ratio: 2/3) and (orientation: portrait){
+	nav{
+		padding-bottom: 1.211em !important;
+	}
+	
+	nav .nav-btn{
+		font-size: 0.586em !important;
+	}
+}
+
+/* iPhone 4 - Landscape */
+@media only screen and (device-aspect-ratio: 2/3) and (orientation: landscape){
+	nav{
+		padding-bottom: 1.504em !important;
+	}
+	
+	nav .nav-btn{
+		font-size: 0.879em !important;
+	}
+}
+
+/* iPhone 5 - Landscape */
+@media only screen and (device-aspect-ratio: 40/71) and (orientation: landscape){
+	nav{
+		padding-bottom: 1.664em !important;
+	}
+	
+	nav .nav-btn{
+		font-size: 1.039em !important;
+	}
+}
+
+/* iPad - Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
+	nav{
+		padding-bottom: 2.031em !important;
+	}
+	
+	nav .nav-btn{
+		font-size: 1.406em !important;
+	}
+}
+
+/* iPad - Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
+	nav{
+		padding-bottom: 2.500em !important;
+	}
+	
+	nav .nav-btn{
+		font-size: 1.875em !important;
+	}
+}
+
+.page .mobile-coinslider{
+	position: relative;
+	top: 30px;
+	padding-top: 30px;
+	width : 100%;
+	padding-bottom: 30px;
+	border-bottom : 1px solid #dddddd;
+}
+
+.page .mobile-coinslider img{
+	min-width: 98%;
+	max-width: 98%;
+	margin: 0 1% 0 1%;
+}
+
+.page .service{
+	width: 100%;
+	margin-top: 45px;
+	padding-bottom: 60px;
+	border-bottom: 1px solid #dddddd;
+}
+
+.page .service[value='first']{
+	margin-top: 60px;
+}
+
+
+.page .service .service-icon{
+	width: 8%;
+	margin: auto;
+}
+
+.page .service .service-header{
+	width: 100%;
+	margin-top: 15px;
+	text-align: center;
+	color: #a3a3a3;
+	font-size: 0.938em;
+}
+
+.page .service .service-text{
+	width: 100%;
+	margin-top: 1.875em;
+	color: #a3a3a3;
+	font-size: 0.813em;
+	text-align: center;
+}
+
+.portfolio-list li{
+	margin: 2.5em 0 2.5em 0;
+}
+
+.portfolio-list li>p>a>img {
+	border : 1px solid #dddddd;
+}
+	
+.likebar{
+	margin: auto;
+	width : 18.125em;
+	height : 1.875em;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.like{
+	position : relative;
+	left : 0.250em;
+	top : 0.188em;
+	cursor : pointer;
+}
+
+.likes{
+	position : relative;
+	left : 0.438em;
+	top : 0.188em;
+	font-size : 0.688em;
+	color : #a3a3a3;
+}

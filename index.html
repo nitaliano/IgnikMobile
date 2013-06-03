@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Ignik Design</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="css/normalize.css" media="screen">
+<link rel="stylesheet" href="css/main.css" media="screen">
+</head>
+<body>
+	<div class="ignik-wrapper">
+		
+		<nav class="ignik-nav">
+			<a class="nav-logo"><img src="images/header.png"></a>
+			
+			<a class="nav-btn" id="nav-home" href="#home">HOME</a>
+			<a class="nav-btn" id="nav-portfolio" href="#portfolio">PORTFOLIO</a>
+			<a class="nav-btn" id="nav-about" href="#about">ABOUT US</a>
+			<a class="nav-btn" id="nav-contact" href="#contact">CONTACT</a>
+		</nav>
+		
+		<div class="page">
+			
+		</div>
+	</div>
+
+
+<!-- Templates  -->
+<script type="text/html" id="home">
+	<div class="mobile-coinslider">
+		<img src="images/IGNIKDESIGNCARDSscreenshot.jpg">
+	</div>
+
+	<div class="service" value="first">
+		<div class="service-icon"><img src="images/questionICON.png"></div>
+
+		<div class="service-header">
+			<span>
+				HOW CAN WE HELP?
+			</span>
+		</div>
+
+		<div class="service-text">
+			<p>
+				Ignik Design presents a creative and modern<br>
+			    way to bring your dream to life. Whether an<br>
+		        existing brand or an idea in need of a face, we<br>
+			    are prepared to deliver a smooth, clean, and<br>
+			    inspiring foundation for your business.
+			</p>
+		</div>
+	</div>
+
+	<div class="service">
+		<div class="service-icon"><img src="images/paletteICON.png"></div>
+
+		<div class="service-header">
+			<span>
+				BRANDING & DESIGN
+			</span>
+		</div>
+
+		<div class="service-text">
+			<p>
+				A unique and identifiable brand is vital<br>
+				to the success of any business. Its impact<br>
+				is felt when uniformly applied across all<br> 
+				marketing mediums. Ignik's print design<br> 
+				services are focused on all materials<br> 
+				necessary to market your brand.
+			</p>
+		</div>
+	</div>
+
+	<div class="service">
+		<div class="service-icon"><img src="images/settingsICON.png"></div>
+
+		<div class="service-header">
+			<span>
+				WEB & APP DEVELOPMENT
+			</span>
+		</div>
+
+		<div class="service-text">
+			<p>
+				We specialize in utilizing various modern<br>
+				technologies and media outlets in order to<br> 
+				provide the user with a memorable experience.<br> 
+				When we accept a project the goal is not to<br> 
+				simply complete it. The goal is to complete it<br> 
+				and exceed every expectation held by our client.
+			</p>
+		</div>
+	</div>
+</script>
+
+<script type="text/html" id="portfolio">
+	<ul class="portfolio-list">
+	</ul>
+</script>
+
+<script type="text/html" id="portfolio-piece">
+	<li class='portfolio-li'>
+		<p style='text-align:center;'>
+			<a>
+				<img src='<%=imagelink%>'>
+			</a>
+
+			<div class='likebar'>
+				<img class='like' src='images/heart.png' value='<%=likekey%>'>
+				<span class='likes'><%=likesforimg%></span>
+			</div>
+		</p>
+	</li>
+</script>
+
+
+<!-- Javascript resources -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="application/jquery.hammer.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.0.0/backbone-min.js"></script>
+<script type="text/javascript" src="application/app.js"></script>
+</body>
+</html>
